@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+    main {
+        padding-bottom: 50px;
+    }
+
+    .wrapper_card {
+        padding: 50px 150px 50px 150px; 
+        gap: 50px;
+    }
+    .card {
+        width: 100%; 
+    }
+    .header_content {
+        font-size: 22px; 
+    }
+
+    .film_name {
+        font-size: 4vw; 
+    }
+
+    .film_yaer {
+        font-size: 3vw;
+
+    }
+    
+    .film_janr {
+        font-size: 3vw;
+    }
+
+    .img_card {
+        max-width: 100%;
+        max-height: 240px;
+        object-fit: cover;
+    }
+
+    .pagination_btn {
+        padding: 5px 5px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .wrapper_reiting {
+        position: absolute;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        border-radius: 50%;
+    
+        color: #F0F0F0;
+    
+        font-size: 15px;
+    
+        background: rgb(26, 24, 24) ;
+    
+        top: 14px;
+        left: 14px;
+    
+        width: 35px; 
+        height: 35px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header_content {
+        font-size: 4px; 
+    }
+    .wrapper_card {
+        padding: 15px; 
+    }
+    .card {
+        width: 100%; 
+    }
+}
