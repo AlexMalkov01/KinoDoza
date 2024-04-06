@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header_content {
+    padding: 25px 0 25px 50px;
+    background: #90EE90;
+
+    font-family: Cinzel;
+    font-size: 32px;
+    font-weight: 700px;
+
+    color: #00008B;
+}
+
+main {
+    background-color: #313a28;
+
+    padding-bottom: 100px;
+}
+
+.wrapper_card {
+    padding: 100px 100px 100px 100px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: calc( 100%/4 - 75px);
+
+    flex-wrap: wrap;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-family: Libre Baskerville;
+
+    padding: 10px 10px 30px 10px;
+    border-radius: 12px;
+
+    background-color: rgb(26, 24, 24);
+    cursor: pointer;
+}
+
+
+.wrapper_reiting {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+
+    color: #F0F0F0;
+
+    font-size: 16px;
+
+    background: rgb(26, 24, 24) ;
+
+    top: 14px;
+    left: 14px;
+
+    width: 60px; 
+    height: 60px; 
+
+    border: 2px solid green;
+}
+
+.img_card {
+    width: 100%;
+    height: 420px;
+}
+
+.title_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+}
+
+.film_name {
+    font-size: 30px;
+    font-weight: 800;
+
+    color: #F0F0F0;
+}
+
+.film_yaer {
+    font-size: 24px;
+    font-weight: 400;
+
+    color: #F5F5DC;
+}
+
+.film_janr {
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #F5F5DC;
+}
+
+.wrapper_reiting--yellow {
+    border: 2px solid yellow;
+}
+
+.wrapper_reiting--red {
+    border: 2px solid red;
+}
+
+.pagination_wrapper {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagination_btn {
+    padding: 8px 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+
+    border: none;
+    cursor: pointer;
+}
