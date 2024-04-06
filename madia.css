@@ -64,7 +64,7 @@
 
 @media (max-width: 480px) {
     .header_content {
-        font-size: 10px; 
+        font-size: 1rem; /* 1rem соответствует размеру шрифта по умолчанию (обычно 16px) */
     }
     .wrapper_card {
         padding: 15px; 
