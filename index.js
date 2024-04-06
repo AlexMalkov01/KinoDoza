@@ -6,7 +6,7 @@ class KinoDose {
         const response = await fetch(url, {
             method: 'GET',
             headers: {
-                'X-API-KEY': '1af72e83-56fb-4b28-8924-e8e35a82abcf',
+                'X-API-KEY': '58e91374-c861-46b6-af80-5beabf6d50d2',
                 'Content-Type': 'application/json',
             },
         });
@@ -82,20 +82,28 @@ class Pagination {
     PaginationList () {
 
         this.paginationLength.forEach((el,idx)=>{
-
+            
             const element = document.createElement("button")
             element.classList.add("pagination_btn")
-            element.innerHTML = `
-            ${idx + 1}
-            `
+            element.innerHTML = `${idx + 1}`
+            if (idx === 0) {
+                element.classList.add("pagination_btn--bacgraund")
+            }
             element.addEventListener("click", async (event)=>{
+                
+                document.querySelector(".pagination_btn--bacgraund").classList.remove("pagination_btn--bacgraund") 
+                
                 document.querySelector(".wrapper_card").innerHTML = ``
                 const elementValue = event.target.innerHTML
+
+                if (elementValue == elementValue) {
+                   element.classList.add("pagination_btn--bacgraund")
+                }
 
                 const getResponse = await fetch(`https://kinopoiskapiunofficial.tech/api/v2.2/films/collections?type=TOP_POPULAR_MOVIES&page=${elementValue}`, {
                     method: 'GET',
                     headers: {
-                        'X-API-KEY': '1af72e83-56fb-4b28-8924-e8e35a82abcf',
+                        'X-API-KEY': '58e91374-c861-46b6-af80-5beabf6d50d2',
                         'Content-Type': 'application/json',
                     },
                 });
@@ -124,8 +132,9 @@ class Pagination {
         
                     </div>
                         `
-                        document.querySelector(".wrapper_card").appendChild(element);  
+                        document.querySelector(".wrapper_card").appendChild(element);
                        return
+
                     } 
         
                     element.innerHTML = `

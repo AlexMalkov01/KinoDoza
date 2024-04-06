@@ -131,3 +131,7 @@ main {
     border: none;
     cursor: pointer;
 }
+
+.pagination_btn--bacgraund {
+    background-color: #90EE90;
+}
