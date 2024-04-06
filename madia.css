@@ -11,7 +11,7 @@
         width: 100%; 
     }
     .header_content {
-        font-size: 30px; 
+        font-size: 40px; 
     }
 
     .film_name {
@@ -64,7 +64,7 @@
 
 @media (max-width: 480px) {
     .header_content {
-        font-size: 50px; 
+        font-size: 35px; 
     }
     .wrapper_card {
         padding: 15px; 
