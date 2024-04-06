@@ -125,7 +125,6 @@ class Pagination {
                     </div>
                         `
                         document.querySelector(".wrapper_card").appendChild(element);  
-        
                        return
                     } 
         
@@ -153,21 +152,16 @@ class Pagination {
                 } else if (el.ratingKinopoisk < 7) {
                     element.querySelector(".wrapper_reiting").classList.add("wrapper_reiting--yellow") 
                 };
-        
-        
                     document.querySelector(".wrapper_card").appendChild(element);  
                 })
             })
             document.querySelector(".pagination_wrapper").appendChild(element)
-
         })
-
     }
 }
 
 const kinoDose = new KinoDose(); 
 const kinoDosePaginatin = new Pagination ();
-
 
 kinoDose.pageLoading('https://kinopoiskapiunofficial.tech/api/v2.2/films/collections?type=TOP_POPULAR_MOVIES&page=1');
 kinoDosePaginatin.PaginationList()
