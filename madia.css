@@ -66,14 +66,12 @@
     .header_content {
         font-size: 18px; 
     }
-    .wrapper_card {
-        padding: 15px; 
-    }
+
     .card {
         width: 100%; 
     }
     .wrapper_card {
-        padding: 50px 20px 50px 20px; 
+        padding: 50px 60px 50px 60px; 
         gap: 50px;
     }
 }
