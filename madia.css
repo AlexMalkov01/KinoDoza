@@ -64,7 +64,7 @@
 
 @media (max-width: 480px) {
     .header_content {
-        font-size: 4px; 
+        font-size: 10px; 
     }
     .wrapper_card {
         padding: 15px; 
