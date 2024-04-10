@@ -3,7 +3,7 @@
 const GET_FILM_LIST = 'https://kinopoiskapiunofficial.tech/api/v2.2/films/collections?type=TOP_POPULAR_MOVIES&page='
 
 const API_HEADERS = {
-    'X-API-KEY': '1af72e83-56fb-4b28-8924-e8e35a82abcf',
+    'X-API-KEY': '58e91374-c861-46b6-af80-5beabf6d50d2',
     'Content-Type': 'application/json',
 }
 
